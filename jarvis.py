@@ -133,7 +133,8 @@ if __name__ == "__main__":
             alarm_time = alarm_time.replace("set alarm to ", " ")
             alarm_time = alarm_time.replace(".", " ")
             alarm_time = alarm_time.upper()
-            import myalarm
+            import myalarm 
+#             this func needs further rectification, showing bugs
 
             myalarm.myAlarm(alarm_time)
 
